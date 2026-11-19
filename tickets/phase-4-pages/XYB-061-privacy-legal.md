@@ -4,7 +4,7 @@ title: Privacy and legal pages
 phase: 4-pages
 type: content
 size: S
-depends_on: [XYB-071, XYB-075]
+depends_on: [XYB-070, XYB-071, XYB-072, XYB-075]
 skills: [copywriting, privacy, nextjs, mdx]
 good_first_issue: true
 ---

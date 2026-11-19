@@ -4,7 +4,7 @@ title: "Signature scene: into phase"
 phase: 3-home
 type: motion
 size: L
-depends_on: [XYB-026, XYB-021]
+depends_on: [XYB-026, XYB-021, XYB-005]
 skills: [gsap, scrolltrigger, svg, performance]
 good_first_issue: false
 ---

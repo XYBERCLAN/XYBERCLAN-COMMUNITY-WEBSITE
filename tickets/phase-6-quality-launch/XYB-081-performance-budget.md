@@ -4,7 +4,7 @@ title: Performance budget
 phase: 6-quality-launch
 type: qa
 size: M
-depends_on: [M3]
+depends_on: [XYB-003]   # set the budget in CI from Sprint 3; the full page pass runs after M3
 skills: [web-performance, nextjs, lighthouse, svg]
 good_first_issue: false
 ---

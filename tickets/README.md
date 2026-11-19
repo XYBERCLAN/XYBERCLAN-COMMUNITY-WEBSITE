@@ -149,7 +149,7 @@ Each section is its own ticket, in scroll order. Each has one job.
 | ID | Ticket | Type | Size | Depends on |
 | --- | --- | --- | --- | --- |
 | XYB-080 | [Accessibility audit (WCAG 2.2 AA)](phase-6-quality-launch/XYB-080-accessibility-audit.md) | qa | M | M3 |
-| XYB-081 | [Performance budget](phase-6-quality-launch/XYB-081-performance-budget.md) | qa | M | M3 |
+| XYB-081 | [Performance budget](phase-6-quality-launch/XYB-081-performance-budget.md) | qa | M | 003 (full pass after M3) |
 | XYB-082 | [Device and browser QA](phase-6-quality-launch/XYB-082-device-browser-qa.md) | qa | M | M3 |
 | XYB-083 | [Content QA and launch checklist](phase-6-quality-launch/XYB-083-launch-checklist.md) | qa | S | 080–082 |
 | XYB-084 | [Showcase kit for galleries](phase-6-quality-launch/XYB-084-showcase-kit.md) | content | M | 083 |

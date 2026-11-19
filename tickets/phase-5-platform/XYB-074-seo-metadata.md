@@ -4,7 +4,7 @@ title: SEO, metadata and structured data
 phase: 5-platform
 type: dev
 size: M
-depends_on: [XYB-005]
+depends_on: [XYB-005, XYB-072]
 skills: [nextjs, seo, json-ld]
 good_first_issue: false
 ---

@@ -4,7 +4,7 @@ title: Navigation and footer
 phase: 3-home
 type: dev
 size: M
-depends_on: [XYB-014, XYB-010, XYB-006]
+depends_on: [XYB-014, XYB-010, XYB-017, XYB-006]
 skills: [react, css, gsap, accessibility]
 good_first_issue: false
 ---
