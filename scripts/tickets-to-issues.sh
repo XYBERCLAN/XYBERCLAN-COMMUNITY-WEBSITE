@@ -12,7 +12,7 @@ CREATE=false
 [[ "${1:-}" == "--create" ]] && CREATE=true
 
 field() { # field <name> <file> -> value of a frontmatter field
-  awk -v k="$1" 'NR==1 && $0=="---"{f=1; next} f && $0=="---"{exit} f && $0 ~ "^"k":" {sub("^"k":[ ]*",""); sub(/[ ]+#.*$/,""); print; exit}' "$2"
+  awk -v k="$1" 'NR==1 && $0=="---"{f=1; next} f && $0=="---"{exit} f && $0 ~ "^"k":" {sub("^"k":[ ]*",""); sub(/[ ]+#.*$/,""); gsub(/^"|"$/,""); print; exit}' "$2"
 }
 body() { # everything after the closing frontmatter fence
   awk 'NR==1 && $0=="---"{f=1; next} f==1 && $0=="---"{f=2; next} f==2{print}' "$1"
